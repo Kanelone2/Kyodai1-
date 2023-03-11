@@ -1,0 +1,33 @@
+     Section 2 test kyodai (dev)
+
+                                                     Algorithme repetition
+
+                               
+                                        Variable : c: reel
+                                                   s: chaine de caractere
+                                  Debut
+                                           c==0
+                                           Afficher("Veuillez entrer une chaine de caractere")
+
+                                              Lire (s)
+                                              
+                                          TANT QUE (s='\O') FAIRE
+
+                                             Afficher("La chaine caractere a ete lue")
+ 
+                                                 SI (s== c)
+
+                                                   c==c+1
+
+                                                   SINON
+
+                                                        SI(c>=2)
+
+                                                           Afficher ("Le caractere a ete repete")
+                                                           
+                                                        FINSI
+
+                                                   FINSI 
+
+                                            FINTANTQUE
+                                     FIN 
